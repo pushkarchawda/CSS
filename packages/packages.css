@@ -4,15 +4,16 @@ main {
 }
 
 .background__image {
-    background: url(../image/web-hosting.jpg);
-    width: 100%;
-    height: 100%;
+    background: url(../image/web-hosting.jpg) center/cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
 .package {
-    margin: 16px 0;   
+    margin: 1rem 0;   
     border: 4px solid #0e4f1f;   
     border-left: none; 
     width: 80%
@@ -20,7 +21,7 @@ main {
 
 .package a {
     text-decoration: none; 
-    padding: 32px;
+    padding: 2rem;
     display: block;
     color: inherit;
     position: relative;
@@ -34,12 +35,12 @@ main {
 
 .recommended_plan {
     position: absolute;
-    font-size: 12px;
+    font-size: 0.75rem;
     background: rgba(228, 39, 6, 0.781);
     color: white;
-    padding: 8px;
-    top: 1px;
-    right: 12px;
+    padding: 0.5rem;
+    top: 0.0625rem;
+    right: 0.75rem;
     border-radius: 8px; 
 }
 
@@ -50,11 +51,11 @@ a .package__subtitle {
 .package__info {
     background: white;
     color: #0e4f1f;
-    margin: 10px;
+    margin: 0.625rem;
     margin-left: 0;
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .clearfix {
